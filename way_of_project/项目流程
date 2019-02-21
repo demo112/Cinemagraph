@@ -1,0 +1,34 @@
+
+Cinemagraph
+项目开发日期:2019-2-21
+项目
+项目流程
+Cinemagraph(主目录文件夹):
+    templates(主目录模板，用于存放继承父模板文件,或者是404文件)
+    static(全部静态文件目录)
+        js(模板所用JS)
+        css(模板所用样式)
+        images(模板所用背景)
+        uploads(上传图片)
+    index(主页应用)
+        templates(主页模板存放)
+        models.py(存放主页相关数据表)
+        ...
+    userinfo(用户相关)
+        templates(用户相关模板)
+        models.py(存放用户相关数据表)
+        ...
+    picture(图片应用)
+        templates(图片显示模板)
+        models.py(存放图片数据库相关表)
+        ...
+    Cinemagraph(项目配置及逐路由文件夹)
+        urls.py
+        wsgi.py
+        ....
+
+管理员账户：
+  cooper
+  wangtong
+
+
